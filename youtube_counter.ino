@@ -26,6 +26,7 @@ MAX7219_Dot_Matrix display(chips, 2);
 const int MESSAGE_MAX_CHARS = 200;
 char message[MESSAGE_MAX_CHARS] = "";
 
+// Backend domain. You can use the code at https://github.com/mundodaeletrica/App-Engine-Youtube-Subscriber-Counter-Backend to create your own backend for free on Google App Engine.
 const char* host = "yt-subscriber-count.appspot.com";
 
 // Arquivo que tem a configuração de sua rede wifi
