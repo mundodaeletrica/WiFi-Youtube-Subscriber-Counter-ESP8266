@@ -4,8 +4,11 @@
 #include <Wire.h>
 #include <SPI.h>
 #include <bitBangedSPI.h>
-#include <MAX7219_Dot_Matrix.h>
 
+
+// Get this modified library in zip format to allow printing characteres whithout rotation as you see on the video.
+// https://github.com/mundodaeletrica/MAX7219_Dot_Matrix
+#include <MAX7219_Dot_Matrix.h> 
 
 // Numero de modulos de display
 const byte chips = 6;
